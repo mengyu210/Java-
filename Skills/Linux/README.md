@@ -68,6 +68,6 @@
        tar -cvf /home/a.tar /home/a            只打包，不压缩
        tar -zcvf /home/a.tar.gz /home/a        打包，并用gzip压缩
        tar -jcvf /home/a.tar.bz2 /home/a       打包，并用bzip2压缩
-5.网络常用命令
+5.网络常用命令集
   
     
