@@ -56,7 +56,16 @@
    （4）ArrayList和Vector两者允许null值，也可以使用索引值对元素进行随机访问<br>
     不同点：<br>
    （1）Vector是同步的，而ArrayList不是<br>
-   （2）ArrayList比Vector快，它因为有同步，不会过载。<br>  
+   （2）ArrayList比Vector快，它因为有同步，不会过载。<br>
+## 13、Switch能使用的参数类型<br>
+   支持byte, short, char, int或者其对应的封装类以及Enum类型和String类型<br>
+## 14、==和eqauls()的区别<br>
+   ==是运算符、用于比较两个变量是否相等<br>
+   equals是Object类的方法，用于比较两个对象是否相等、默认Object类的equals方法是比较两个对象的地址<br>
+   基本类型比较用==，比较的是他们的值。对象用==比较时，比较的是内存地址，如果需要比较对象内容，需要重写equal方法比如String类<br>
+## 15、LinkedList的是单向链表还是双向?<br>
+   双向循环列表<br>
+     
 
 
 
